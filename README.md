@@ -11,3 +11,4 @@
     -   id: fmt
     -   id: test
 ```
+⚠️ This repository uses [Scarb](https://docs.swmansion.com/scarb/) commands, so it is a necessary dependency.
