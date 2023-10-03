@@ -10,5 +10,4 @@
     description: Run tests with Scarb test
     entry: scarb test
     language: system
-    files: \.cairo$
-    pass_filenames: false
+    args: []
