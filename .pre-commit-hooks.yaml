@@ -3,7 +3,6 @@
     description: Format files with Scarb fmt
     entry: scarb fmt
     language: system
-    files: \.cairo$
     args: []
 -   id: test
     name: cairo test
