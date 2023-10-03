@@ -5,8 +5,8 @@
     language: system
     files: \.cairo$
     args: []
--   id: tests
-    name: cairo tests
+-   id: test
+    name: cairo test
     description: Run tests with Scarb test
     entry: scarb test
     language: system
