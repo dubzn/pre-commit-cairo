@@ -1,12 +1,33 @@
--   id: fmt
-    name: fmt
-    description: Format files with Scarb fmt
+# SCARB HOOKS
+-   id: scarb-fmt
+    name: cairo fmt (Scarb)
+    description: Format files with Scarb
     entry: scarb fmt
     language: system
     args: []
--   id: test
-    name: cairo test
-    description: Run tests with Scarb test
+-   id: scarb-test
+    name: cairo test (Scarb)
+    description: Run tests with Scarb
     entry: scarb test
+    language: system
+    args: []
+-   id: scarb-build
+    name: cairo build (Scarb)
+    description: Run build with Scarb
+    entry: scarb build
+    language: system
+    args: []
+-   id: scarb-clean
+    name: cairo clean (Scarb)
+    description: Run clean with Scarb
+    entry: scarb clean
+    language: system
+    args: []
+
+# FOUNDRY HOOKS
+-   id: foundry-test
+    name: cairo test (Foundry)
+    description: Run tests with Foundry
+    entry: snforge test
     language: system
     args: []
