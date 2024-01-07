@@ -1,33 +1,32 @@
 # SCARB HOOKS
 -   id: scarb-fmt
-    name: cairo fmt (Scarb)
-    description: Format files with Scarb
+    name: Cairo Format (Scarb)
+    description: Use Scarb to automatically format files in the Cairo project.
     entry: scarb fmt
     language: system
-    args: []
+
 -   id: scarb-test
-    name: cairo test (Scarb)
-    description: Run tests with Scarb
+    name: Cairo Test (Scarb)
+    description: Run Scarb tests to ensure the reliability of the Cairo project.
     entry: scarb test
     language: system
-    args: []
+
 -   id: scarb-build
-    name: cairo build (Scarb)
-    description: Run build with Scarb
+    name: Cairo Build (Scarb)
+    description: Use Scarb to execute the build process for the Cairo project.
     entry: scarb build
     language: system
-    args: []
+
 -   id: scarb-clean
-    name: cairo clean (Scarb)
-    description: Run clean with Scarb
+    name: Cairo Clean (Scarb)
+    description: Run the Scarb clean command to remove temporary files in the Cairo project.
     entry: scarb clean
     language: system
-    args: []
 
 # FOUNDRY HOOKS
 -   id: foundry-test
-    name: cairo test (Foundry)
-    description: Run tests with Foundry
+    name: Cairo Test (Foundry)
+    description: Run Foundry tests to ensure the reliability of the Cairo project.
     entry: snforge test
     language: system
-    args: []
+    
