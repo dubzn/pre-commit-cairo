@@ -4,24 +4,32 @@
     description: Use Scarb to automatically format files in the Cairo project.
     entry: scarb fmt
     language: system
+    pass_filenames: false
+    args: []
 
 -   id: scarb-test
     name: Cairo Test (Scarb)
     description: Run Scarb tests to ensure the reliability of the Cairo project.
     entry: scarb test
     language: system
+    pass_filenames: false
+    args: []
 
 -   id: scarb-build
     name: Cairo Build (Scarb)
     description: Use Scarb to execute the build process for the Cairo project.
     entry: scarb build
     language: system
+    pass_filenames: false
+    args: []
 
 -   id: scarb-clean
     name: Cairo Clean (Scarb)
     description: Run the Scarb clean command to remove temporary files in the Cairo project.
     entry: scarb clean
     language: system
+    pass_filenames: false
+    args: []
 
 # FOUNDRY HOOKS
 -   id: foundry-test
@@ -29,4 +37,6 @@
     description: Run Foundry tests to ensure the reliability of the Cairo project.
     entry: snforge test
     language: system
+    pass_filenames: false
+    args: []
     
