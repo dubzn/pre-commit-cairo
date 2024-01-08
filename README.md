@@ -5,7 +5,7 @@ Enhance your [Cairo](https://www.cairo-lang.org/) development workflow with the 
 ## Integrating Cairo Tools with pre-commit
 1. Begin by installing pre-commit using pip (refer to [pre-commit documentation](https://pre-commit.com/#install) if needed).
 ```sh
-    pip install pre-commit
+pip install pre-commit
 ```
 
 2. Create a `.pre-commit-config.yaml` file in the root of your project.
@@ -14,7 +14,7 @@ Enhance your [Cairo](https://www.cairo-lang.org/) development workflow with the 
 ```yaml
 repos:
     - repo: https://github.com/dubzn/pre-commit-cairo.git
-      rev: v0.1.3
+      rev: v0.1.4
       hooks:
           - id: scarb-fmt
             args: [--check]
@@ -23,7 +23,7 @@ repos:
             # include other hooks   
 ```
 
-*Note: The available hooks for version `v0.1.3` are:*
+*Note: The available hooks for version `v0.1.4` are:*
 ```yaml
 # Scarb
 
@@ -47,7 +47,7 @@ repos:
 
 4. Install pre-commit config.
 ```sh
-    pre-commit install
+pre-commit install
 ```
 
 5. Enjoy the streamlined development process! 🎉 
