@@ -17,7 +17,7 @@ repos:
       rev: v0.1.4
       hooks:
           - id: scarb-fmt
-            args: [--check]
+            args: [--check] # This argument is optional, you can remove '--check' to apply scarb fmt directly
           - id: scarb-test  
             args: []
             # include other hooks   
