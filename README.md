@@ -27,7 +27,7 @@ repos:
 ```yaml
 # Scarb
 
-# Run Scarb tests to ensure the reliability of the Cairo project.
+# Format code using Scarb.
 - id: scarb-fmt
 
 # Run Scarb tests to ensure the reliability of the Cairo project.
@@ -35,9 +35,6 @@ repos:
 
 # Use Scarb to execute the build process for the Cairo project.
 - id: scarb-build
-
-# Run the Scarb clean command to remove temporary files in the Cairo project.
-- id: scarb-clean
 
 # Foundry
 
